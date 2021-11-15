@@ -5,6 +5,7 @@ on:
     branches:
       - master  # Set a branch to deploy
   pull_request:
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -26,7 +27,11 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/master'
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.PRIVATE_KEY }}
+          external_repository: Yi-Jiahe/Yi-Jiahe.github.io
+          publish_branch: master  # default: gh-pages
+          force_orphan: true
           publish_dir: ./public
+          cname: www.jiahe.dev
+
