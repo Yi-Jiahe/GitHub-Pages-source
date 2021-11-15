@@ -3,7 +3,7 @@ section:
   name: Skills
   id: skills
   enable: true
-  weight: 2
+  weight: 3
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -11,6 +11,22 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
+- name: Python Development
+  logo: "/images/sections/skills/python.png"
+  summary: "Used for its wide range of packages, which allows me to quickly get started with new ideas such as making use 
+  of Machine Learning, Computer Vision, and building Wep Apps."
+
+- name: Embedded Development
+  logo: "/images/sections/skills/embedded.png"
+  summary: "Prototyping embedded devices with Arduino and Raspberry Pi, and familiar with the tools and skills for working with electronics circuits and components."
+
+- name: Computer Aided Design
+  logo: "/images/sections/skills/cad.png"
+  summary: "Used Solidworks and AutoCAD for product design, preparing parts for manufacting and designing models for presentation."
+
+- name: Full Stack Development
+  summary: "Experimented with Back and Front End Development with a combination of technologies such as React and Node.js."
+
 - name: Go Development
   logo: "/images/sections/skills/go.png"
   summary: "Using as the main language for professional development."
@@ -18,9 +34,22 @@ skills:
 
 - name: Cloud Computing
   logo: "/images/sections/skills/cloud.png"
-  summary: "Deployed applications on AWS Lightsail and EC2, and made use of Route 53 for DNS routing."
+  summary: "Deployed applications on AWS Lightsail and EC2, made use of serverless computing with Lambda and Route 53 for DNS routing."
 
-- name: Python Development
-  # logo:
-  summary: "I use Python for its wide range of packages, which allows me to quickly get started with new ideas such as making use 
-  of Machine Learning, Computer Vision, and building Wep Apps"
+- name: Linux
+  logo: "/images/sections/skills/linux.png"
+  summary: "Familiar with the CLI, bash scripting and some Linux subsystems like systemd"
+
+- name: Machine Learning and AI
+  summary: Trained and implemented Deep Learning models with Tensorflow and implemented various AI algorithms.
+
+- name: C/C++
+  logo: "/images/sections/skills/c.png"
+  summary: "Experience with C and C++ for small low levelled programs and Arduino programs."
+
+- name: Java
+  logo: "/images/sections/skills/java.png"
+  summary: "Experience with working on Java applications and the Spring Boot framework."
+
+- name: Academic Research
+  summary: "Underwent multiple research projects in various fields, with experience publishing papers in multiple international conferences."
