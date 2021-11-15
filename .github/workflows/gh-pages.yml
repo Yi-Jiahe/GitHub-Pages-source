@@ -30,4 +30,8 @@ jobs:
         with:
           deploy_key: ${{ secrets.PRIVATE_KEY }}
           external_repository: <Yi-Jiahe/Yi-Jiahe.github.io>
+          publish_branch: master  # default: gh-pages
+          force_orphan: true
           publish_dir: ./public
+          cname: www.jiahe.dev
+
