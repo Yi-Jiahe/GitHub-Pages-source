@@ -27,16 +27,15 @@ experiences:
     - Design, develop tools to aid the QA effort, such as a server hosted auto-triaging endpoint to diagnose and notify stakeholders.
     - Implement test case automation with Go's testing suite and tools such as Cypress.
 
-# - company:
-#     name: PreExample Co.
-#     url: "https://www.preexample.com"
-#     location: Nowhere
-#     overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
-#   positions:
-#   - designation: Software Engineer
-#     start: March 2016
-#     end: May 2017
-#     responsibilities:
-#     - Write lots of example codes.
-#     - Read lots of examples.
-#     - See lots of example videos.
+- company:
+    name: Temasek Laboratories @ NUS
+    url: "https://temasek-labs.nus.edu.sg/"
+    location: Singapore
+    overview: Temasek Labs is a research institude with a focus on technologies with potential defence applications and developing technical and human talents.
+  positions:
+  - designation: Research Intern
+    start: July 2020
+    end: August 2020
+    responsibilities:
+    - Implement and improve Computer Vision systems for identifying and tracking drones.
+    - Write and submit papers to various international conferences.

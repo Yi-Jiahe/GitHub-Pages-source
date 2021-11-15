@@ -50,3 +50,6 @@ skills:
 - name: Java
   logo: "/images/sections/skills/java.png"
   summary: "Experience with working on Java applications and the Spring Boot framework."
+
+- name: Academic Research
+  summary: "Underwent multiple research projects in various fields, with experience publishing papers in multiple international conferences."
